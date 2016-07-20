@@ -2,5 +2,3 @@
 
 // font-family: 'Baloo Da', cursive;
 // font-family: 'Alegreya', serif;
-
-// add background-img behind main aka 'jumbotron'
