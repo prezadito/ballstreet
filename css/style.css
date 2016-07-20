@@ -2,23 +2,24 @@
 GENERAL
 ************************************/
 
-body {
+/*body {
   margin: auto;
   padding: auto;
-}
+}*/
 
 a {
   text-decoration: none;
 }
 
 button {
-  border: none;
+  border-style: double;
+  border-color; white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 20px auto;
+  /*margin: 20px auto;*/
   /*   border-radius: auto; */
 }
 
@@ -35,19 +36,22 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: -25px 0;
 }
 
 h1 {
   font-family: 'Baloo Da', cursive;
   font-size: 5em;
-  margin-top: 50px;
-  padding: 10px;
+  /*margin: 80px 0 20px 0;*/
+  padding: 200px 0 20px 0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h3 {
   font-family: 'Alegreya', serif;
-  margin: 15px;
+  /*margin: 15px;*/
   padding: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -64,6 +68,11 @@ article {
   max-width: 100%;
 }
 
+.main h2 {
+  font-family: 'Baloo Da', cursive;
+  padding: 40px 0 10px 0;
+}
+
 .main p {
   padding: 15px;
   display: inline-block;
@@ -71,7 +80,7 @@ article {
   /*width: 30%;*/
 }
 
-.col-md-4 {
+.col-lg-4 {
   width: 30%;
   /*float: left;*/
   margin: 1.6%;
@@ -85,7 +94,8 @@ LEAGUES
 ************************************/
 
 .leagues ul {
-  margin: 30px auto;
+  /*margin: 30px auto;*/
+  padding: 45px;
 }
 
 .leagues li {
@@ -96,6 +106,13 @@ LEAGUES
 
 .league-icon {
   width: 100px;
+  height: 100px;
+  margin: 5px auto;
+  border-radius: 15%;
+}
+
+.league-icon-mlb {
+  width: 150px;
   height: 100px;
   margin: 5px auto;
   border-radius: 15%;
@@ -114,10 +131,16 @@ section {
 }
 
 .last {
+  height: 270px;
   background-image: url(../img/court.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.last h3 {
+  font-size: 2.5em;
+  padding: 40px;
 }
 
 
