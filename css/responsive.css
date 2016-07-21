@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 
   /************************************
-  TWO COLUMN LAYOUT
+    BLOCK GRID LAYOUT
   ************************************/
   .main p {
     padding: 15px;
@@ -14,9 +14,18 @@
 
   
   /************************************
-  PAGE: PORTFOLIO
+    MOBILE BG
   ************************************/
-
+    header {
+        min-height: 706px;
+        min-width: 100%;
+        text-align: center;
+        background-image: url('../img/bryant.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -25px 0;
+    }
   
 
   /************************************
@@ -30,7 +39,7 @@
 @media screen and (min-width: 660px) {
 
   /************************************
-  HEADER
+  INLINE GRID LAYOUT
   ************************************/
     .main p {
         padding: 15px;
@@ -38,5 +47,16 @@
         /*margin: 5px 10px;*/
         margin: 1.6%;
         width: 30%;
+    }
+
+    header {
+        min-height: 706px;
+        min-width: 100%;
+        text-align: center;
+        background-image: url('../img/Kobe-SSJ.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -25px 0;
     }
 }
