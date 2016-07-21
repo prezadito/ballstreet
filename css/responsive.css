@@ -1,0 +1,42 @@
+@media screen and (min-width: 480px) {
+
+  /************************************
+  TWO COLUMN LAYOUT
+  ************************************/
+  .main p {
+    padding: 15px;
+    display: block;
+    /*margin: 5px 10px;*/
+    margin: 5%;
+    width: 80%;
+}
+ 
+
+  
+  /************************************
+  PAGE: PORTFOLIO
+  ************************************/
+
+  
+
+  /************************************
+  PAGE: ABOUT
+  ************************************/
+
+  
+
+}
+
+@media screen and (min-width: 660px) {
+
+  /************************************
+  HEADER
+  ************************************/
+    .main p {
+        padding: 15px;
+        display: inline-block;
+        /*margin: 5px 10px;*/
+        margin: 1.6%;
+        width: 30%;
+    }
+}

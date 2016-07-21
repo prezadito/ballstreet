@@ -3,7 +3,7 @@ GENERAL
 ************************************/
 
 body {
-  width: 100%;
+  /*width: 100%;*/
   margin: 0;
   padding: 0;
 }
@@ -21,7 +21,7 @@ button {
   display: inline-block;
   font-size: 16px;
   /*margin: 20px auto;*/
-     /*border-radius: auto; */
+  /*border-radius: auto; */
 }
 
 
@@ -32,10 +32,8 @@ HEADER
 header {
   min-height: 706px;
   min-width: 100%;
-  width: 100%;
-  height: auto;
   text-align: center;
-  background-image: url('../img/bryant.png');
+  background-image: url('../img/Kobe-SSJ.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +41,7 @@ header {
 }
 
 h1 {
-  font-family: 'Baloo Da', cursive;
+  font-family: 'Rakkas', cursive;
   font-size: 5em;
   /*margin: 80px 0 20px 0;*/
   padding: 200px 0 20px 0;
@@ -54,8 +52,12 @@ h3 {
   font-family: 'Alegreya', serif;
   font-size: 3em;
   /*margin: 15px;*/
-  padding: 10px;
+  padding: 50px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+header section {
+  padding: 35px;
 }
 
 
@@ -65,11 +67,11 @@ MAIN
 
 article {
   text-align: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .main {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .main h2 {
@@ -77,17 +79,18 @@ article {
   padding: 40px 0 10px 0;
 }
 
-.main p {
+/*.main p {
   padding: 15px;
   display: inline-block;
+  margin: 5px 10px;
   /*margin: 2%;*/
-  /*width: 30%;*/
-}
+  width: 30%;
+}*/
 
 .col-md-4 {
-  width: 30%;
+  /*width: 30%;*/
   /*float: left;*/
-  margin: 1.6%;
+  /*margin: 1.6%;*/
   /*position: absolute;*/
 }
 
@@ -140,13 +143,14 @@ section {
 
 .last {
   height: 270px;
-  background-image: url(../img/court.jpg);
+  background-image: url(../img/court.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .last h3 {
+  font-family: 'Baloo Da', cursive;
   font-size: 2.5em;
   padding: 40px;
 }
