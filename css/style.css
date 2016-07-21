@@ -83,7 +83,7 @@ article {
   padding: 15px;
   display: inline-block;
   margin: 5px 10px;
-  /*margin: 2%;*/
+  margin: 2%;
   width: 30%;
 }*/
 
@@ -190,14 +190,10 @@ COLORS
 ************************************/
 
 body {
-  background-color: #8d99ae;
-  color: #edf2f4;
+  background-color: #edf2f4;
+  color: #8d99ae;
 }
 
 button {
   background: #EF233C;
-}
-
-.main p {
-  background-color: #2b2d42;
 }
