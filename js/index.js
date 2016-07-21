@@ -2,3 +2,7 @@
 
 // font-family: 'Baloo Da', cursive;
 // font-family: 'Alegreya', serif;
+
+function div_show() {
+  document.getElementById('abc').style.display = "block";
+}

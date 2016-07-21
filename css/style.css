@@ -26,7 +26,7 @@ button {
 
 
 /************************************
-HEADER
+JUMBOTRON
 ************************************/
 
 header {
@@ -48,7 +48,7 @@ h1 {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-h3 {
+header h3 {
   font-family: 'Alegreya', serif;
   font-size: 3em;
   /*margin: 15px;*/
@@ -62,7 +62,7 @@ header section {
 
 
 /************************************
-MAIN
+HOW IT WORKS
 ************************************/
 
 article {
@@ -79,19 +79,17 @@ article {
   padding: 40px 0 10px 0;
 }
 
-/*.main p {
-  padding: 15px;
+.main h4 {
+  padding-top: 25px;
   display: inline-block;
   margin: 5px 10px;
-  margin: 2%;
-  width: 30%;
-}*/
+}
 
 .col-md-4 {
   /*width: 30%;*/
-  /*float: left;*/
+  float: left;
   /*margin: 1.6%;*/
-  /*position: absolute;*/
+  padding-top: 20px;
 }
 
 .row {
@@ -101,12 +99,16 @@ article {
 
 
 /************************************
-LEAGUES
+LEAGUES WE COVER
 ************************************/
 
-.leagues ul {
+.leagues {
   /*margin: 30px auto;*/
-  padding: 45px;
+  padding: 45px 0;
+}
+
+.leagues h3 {
+  padding-bottom: 30px;
 }
 
 .leagues li {
@@ -132,7 +134,7 @@ LEAGUES
 
 
 /************************************
-BOTTOM SECTION
+BOTTOM BANNER
 ************************************/
 
 section {
@@ -191,9 +193,18 @@ COLORS
 
 body {
   background-color: #edf2f4;
-  color: #8d99ae;
+  color: #2b2d42;
+}
+
+header {
+  color: #edf2f4;
+}
+
+.last {
+  color: #edf2f4;
 }
 
 button {
   background: #EF233C;
+  color: #edf2f4;
 }
