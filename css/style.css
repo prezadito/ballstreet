@@ -30,8 +30,8 @@ JUMBOTRON
 ************************************/
 
 header {
-  min-height: 706px;
-  min-width: 100%;
+  /*min-height: 706px;*/
+  /*min-width: 100%;*/
   text-align: center;
   background-image: url('../img/Kobe-SSJ.gif');
   background-size: cover;
@@ -44,7 +44,7 @@ h1 {
   font-family: 'Rakkas', cursive;
   font-size: 5em;
   /*margin: 80px 0 20px 0;*/
-  padding: 200px 0 20px 0;
+  padding: 150px 0 20px 0;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
@@ -186,8 +186,8 @@ footer p {
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 5px auto;
 }
 
