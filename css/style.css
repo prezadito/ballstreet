@@ -94,6 +94,7 @@ article {
 
 .row {
   margin: 0;
+  padding: 0;
 }
 
 
@@ -109,6 +110,10 @@ LEAGUES WE COVER
 
 .leagues h3 {
   padding-bottom: 30px;
+}
+
+.leagues ul {
+  padding: 0;
 }
 
 .leagues li {
