@@ -15,10 +15,6 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/responsive.css">
-
-
-
-
   </head>
 
   <body>
@@ -26,7 +22,19 @@
     <header>
       <h1>Ball Academy</h1>
       <h3>Level the playing field</h3>
-      <section>
+      <section id="body" style="overflow:hidden">
+        <div id="abc">
+          <div id="popupEmail">
+            <form action="#" id="form" method="post" name="form">
+              <img id="close" src="img/exit.png" height="32" width="32" onclick="div_hide()">
+              <h2>Sign up for early access</h2>
+              <hr>
+              <input id="name" name="name" placeholder="Name" type="text">
+              <input id="email" name="email" placeholder="Email" type="text">
+              <a href="javascript:%20check_empty()" id="submit">Submit</a>
+            </form>
+          </div>
+        </div>
         <button id="popup" onclick="div_show()">SIGN UP FREE</button>
       </section>
     </header>
