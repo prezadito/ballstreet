@@ -70,8 +70,8 @@ article {
   /*width: 100%;*/
 }
 
-.main {
-  /*max-width: 100%;*/
+.main ul {
+  display: inline-block;
 }
 
 .main h2 {
@@ -95,6 +95,7 @@ article {
 .row {
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 
@@ -110,6 +111,7 @@ LEAGUES WE COVER
 
 .leagues h3 {
   padding-bottom: 30px;
+  text-shadow: none;
 }
 
 .leagues ul {
@@ -168,7 +170,7 @@ FOOTER
 ************************************/
 
 footer {
-  margin: auto 15px;
+  padding: 10px 15px;
 }
 
 ul {
@@ -177,18 +179,18 @@ ul {
 
 ul li a {
   float: right;
-  padding: 5px;
+  padding: 0 5px;
 }
 
 footer p {
   float: left;
-  margin: 10px 5px;
+  margin: 10px 0;
 }
 
 .social-icon {
   width: 30px;
   height: 30px;
-  margin: 5px auto;
+  /*margin: 5px auto;*/
 }
 
 

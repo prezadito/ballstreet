@@ -70,8 +70,9 @@
         <li><a href="https://www.instagram.com/" target='_blank'><img src='img/instagram.png' alt='Instagram' class='social-icon'></a></li>
         <li><a href="https://twitter.com/" target='_blank'><img src='img/twitter.png' alt='Twitter' class='social-icon'></a></li>
       </ul>
-    </footer>
       <script src="js/index.js"></script>
+    </footer>
+      
 
   </body>
 </html>
