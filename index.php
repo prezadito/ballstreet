@@ -26,7 +26,7 @@
         <div id="abc">
           <div id="popupEmail">
             <form action="#" id="form" method="post" name="form">
-              <img id="close" src="img/exit.png" height="32" width="32" onclick="div_hide()">
+              <img id="close" src="img/exit.png" onclick="div_hide()">
               <h2>Sign up for early access</h2>
               <hr>
               <input id="name" name="name" placeholder="Name" type="text">
