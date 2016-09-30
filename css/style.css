@@ -33,7 +33,7 @@ header {
   /*min-height: 706px;*/
   /*min-width: 100%;*/
   text-align: center;
-  background-image: url(''../img/bryant.png'');
+  background-image: url('../img/bryant.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
